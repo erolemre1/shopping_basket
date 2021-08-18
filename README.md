@@ -9,7 +9,7 @@
 ## Installation
 Clone the project.
 ```
-git clone https://github.com/erolemre1/react-my-blog-login.git
+git clone https://github.com/erolemre1/shopping_basket.git
 ```
 
 ## Usage
