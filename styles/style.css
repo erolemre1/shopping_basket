@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Open Sans", Roboto, arial, sans-serif;
+}
+.GlobalWrapper{
+    background-color: #ebebeb;
+    padding: 10px 0 10px 0;
+    height: 100vh;
+}
+.wrapper{
+    background-color: #fff;
+   border-radius: 10px;
+   height: 100%;
+}
+.navhref{
+    font-size: 16px;
+}
+.navhref:focus{
+    background-color: #eff7fe;
+}
+
+.navulWrapper {
+    list-style-type: none;
+    white-space: nowrap;
+}
+.swiperText{
+    background-color: #f2f2f2;
+    padding: 10px 0 10px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+}
+.swiper-title{
+    font-size: 16px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+.swiperCard-Footer{
+    color: #adadad;
+    text-decoration: none;
+    font-size: 16px;
+}
+.swiper-icon{
+    color: #2eaa4e;
+    font-size: 16px;
+}
+.card{
+    height: 400px;
+}
+
+.cardFooter{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+.swpicon{
+    height: 20px;
+}
+.swiper-buttons{
+visibility: hidden;
+}
+.home-img{
+    width: fit-content;
+}
+.swiper-button-next::after{
+    border-left: 1px solid #c8c8c8;
+    border-radius: 80px;
+    padding: 20px;
+    border-bottom:1px solid #c8c8c8 ;
+    border-top:1px solid #c8c8c8 ;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #fff;
+    color: #c8c8c8 !important;
+    margin-bottom: 200px;
+    font-size: 22px;
+    }
+.swiper-button-prev::after{
+    border-right: 1px solid #c8c8c8;
+    border-radius: 50px;
+    padding: 20px;
+    color: #c8c8c8 !important;
+    border-bottom:1px solid #c8c8c8 ;
+    border-top:1px solid #c8c8c8 ;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 200px;
+    font-size: 22px;
+  }
+.container-header{
+    font-weight: bold;
+}
+.imagess{
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px !important;
+    border:1px solid #c8c8c8 ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.modalIcon{
+    border-radius: 90px;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+#myBtn{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+ @media screen and (max-width: 768px) {
+        .navhref:focus{
+            border-bottom: 2px solid #2f54bc;
+        }
+        .navLi:hover{
+            border-left: none;
+        }
+        .navulWrapper{
+            display: flex;
+            flex-direction: row;
+        }
+        .navWrapper{
+           min-width: 120px;
+           overflow-x: scroll;
+        }
+        .navLi a {
+           margin-right: 10px;
+        }
+        .swipper-bottom-wrapper{
+            min-width: 200px;
+        }
+        .swiper-slide {
+            width: 70% !important;
+        }
+      
+    }
+
+
